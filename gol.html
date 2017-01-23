@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title>Evaluación TangoSource</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/MD-deepOrLghtBl.min.css">
+<link rel="stylesheet" href="css/icons.css">
+<link rel="stylesheet" href="css/comunes.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="js/material.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/cell.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/ini.js"></script>
+</head>
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+            <!-- Titulo -->
+				<span class="mdl-layout-subtitle">Game Of Life</span>
+				<div class="mdl-layout-spacer"></div>
+   			</div>
+			<!-- menu izquierdo -->
+			<div class="mdl-layout__header-row">
+				<div style="width: 150px;">
+            	<button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored  mdl-color--red-600
+"><i class="material-icons">more_vert</i></button>
+                <label for="demo-menu-lower-left">Patrones</label>
+				<ul id="selector" class="mdl-menu mdl-menu--bottom-left mdl-js-menu" for="demo-menu-lower-left">
+				</ul>
+				</div>
+             <!-- patron seleccionado -->
+              <div class="mdl-color--red-600" style="padding: 5px;">
+            	<span id="patronTitle" class="mdl-layout-title" style="width: 350px; height: 35px;">
+            	Ningún patrón seleccionado
+            	</span>
+			  </div>
+            </div>
+   			<div class="mdl-layout-spacer"></div>
+		</header>
+        <!-- menu lateral -->
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Menú</span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="index.html">Home</a>
+				<a class="mdl-navigation__link" href="gol.html">Evaluación técnica</a>
+				<a class="mdl-navigation__link" href="#">About</a>    
+			</nav>
+		</div>
+        <!-- -->
+        <main class="mdl-layout__content"> 
+		  <section>
+          	<!-- contenedor del grid -->
+            <div id="contenedor" class="mdl-grid--no-spacing"></div>
+            <!-- -->
+            <!-- controles -->
+            <div style="width: 600px;">
+
+        	  <button id="pasopaso" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                <div class="icon-next">&ensp;</div>
+              </button>
+              <div class="mdl-tooltip" for="pasopaso">Paso a paso</div>
+        	  
+              <button name="autom" id="autom" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" >
+                <div class="icon-play">&ensp;</div>
+              </button>
+              <div class="mdl-tooltip" for="autom">Repr. automática</div>
+ 
+        	  <button type="button" id="detener" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" >
+              <div class="icon-stop">&ensp;</div>
+              </button>
+              <div class="mdl-tooltip" for="detener">Parar ejecución</div>
+              
+        	  <button type="button" id="borrar" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-color--pink-A200" >
+                <div class="icon-clear">&ensp;</div>
+              </button>
+              <div class="mdl-tooltip" for="borrar">Limpiar grid y parar ejecución</div>
+              
+              <div id="frecControl" style="width:200px; display:inline-block;" align="center">
+                <label for="frecuencia">+&ensp;&ensp;&ensp;Velocidad&ensp;&ensp;&ensp;-</label>
+                <input type="range" name="frecuencia" id="frecuencia" class="mdl-slider mdl-js-slider" min="0" max="1000" value="500" step="2" alt="velocidad" style="width: 300px;">
+              </div>
+
+              <div class="mdl-tooltip" for="frecControl">entre 0 (+) y 1000 (-) milisegundos.</div>
+            </div>
+			<!-- -->
+          </section>
+        </main>
+	</div>
+</body>
+</html>

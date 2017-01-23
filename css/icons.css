@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.icon-next{
+	background-image: url(../icons/ic_skip_next_black_36dp.png);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 36px;
+	}
+	
+	
+.icon-play{
+	background-image: url(../icons/ic_play_arrow_black_36dp.png);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 36px;
+	}
+
+.icon-stop{
+	background-image: url(../icons/ic_pause_black_36dp.png);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 36px;
+	}
+
+.icon-clear{
+	background-image: url(../icons/ic_clear_black_36dp.png);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 36px;
+	}

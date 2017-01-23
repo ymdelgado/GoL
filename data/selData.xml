@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <opt id="1" tag="Gun" path="data/gun.xml" />
+  <opt id="2" tag="Small Exploder" path="data/smallExploder.xml" />
+  <opt id="3" tag="Exploder" path="data/exploder.xml" />
+  <opt id="4" tag="10 cell on row" path="data/tenCellOnRow.xml" />
+  <opt id="5" tag="Light weight spaceship" path="data/lightweightSpaceship.xml" />
+  <opt id="6" tag="Gosper glider gun" path="data/gosperGliderGun.xml" />
+</data>

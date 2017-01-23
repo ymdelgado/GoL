@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ren id="0">
+    <col id="4" stat="1"></col>
+  </ren>
+  <ren id="1">
+    <col id="5" stat="1"></col>
+  </ren>
+  <ren id="2">
+    <col id="3" stat="1"></col>
+    <col id="4" stat="1"></col>
+    <col id="5" stat="1"></col>
+  </ren>
+</data>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.alive{
+	border: thin solid #ddd;
+	background-color: #318313;
+	opacity: 0.6;	
+}
+
+.golGrid {
+	border: thin dotted #ccc;
+	width: 10px;
+	height: 10px;
+}
+
+.nopadmarg{
+	padding: 0px; 
+	margin: 0px;
+}
+

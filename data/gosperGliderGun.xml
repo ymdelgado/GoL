@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ren id="5">
+    <col id="24" stat="1"></col>
+    <col id="25" stat="1"></col>
+    <col id="35" stat="1"></col>
+    <col id="36" stat="1"></col>
+  </ren>
+  <ren id="6">
+    <col id="23" stat="1"></col>
+    <col id="25" stat="1"></col>
+    <col id="35" stat="1"></col>
+    <col id="36" stat="1"></col>
+  </ren>
+  <ren id="7">
+    <col id="1" stat="1"></col>
+    <col id="2" stat="1"></col>
+    <col id="10" stat="1"></col>
+    <col id="11" stat="1"></col>
+    <col id="23" stat="1"></col>
+    <col id="24" stat="1"></col>
+  </ren>
+  <ren id="8">
+    <col id="1" stat="1"></col>
+    <col id="2" stat="1"></col>
+    <col id="9" stat="1"></col>
+    <col id="11" stat="1"></col>
+  </ren>
+  <ren id="9">
+    <col id="9" stat="1"></col>
+    <col id="10" stat="1"></col>
+    <col id="17" stat="1"></col>
+    <col id="18" stat="1"></col>
+  </ren>
+  <ren id="10">
+    <col id="17" stat="1"></col>
+    <col id="19" stat="1"></col>
+  </ren>
+  <ren id="11">
+    <col id="17" stat="1"></col>
+  </ren>
+  <ren id="12">
+    <col id="36" stat="1"></col>
+    <col id="37" stat="1"></col>
+  </ren>
+  <ren id="13">
+    <col id="36" stat="1"></col>
+    <col id="38" stat="1"></col>
+  </ren>
+  <ren id="14">
+    <col id="36" stat="1"></col>
+  </ren>
+  <ren id="15">
+  </ren>
+  <ren id="16">
+  </ren>
+  <ren id="17">
+    <col id="25" stat="1"></col>
+    <col id="26" stat="1"></col>
+    <col id="27" stat="1"></col>
+  </ren>
+    <ren id="18">
+    <col id="25" stat="1"></col>
+  </ren>
+  <ren id="19">
+    <col id="26" stat="1"></col>
+  </ren>
+</data>
